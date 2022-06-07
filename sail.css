@@ -1,0 +1,129 @@
+body{
+    margin: 0rem;
+    padding: 0rem;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.2rem 0.1rem 0.2rem 0.1rem rgb(167, 165, 165)  ;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    margin: 0rem 3rem;
+    display: flex;
+}
+.logoimg{
+    width: 3rem;
+    height: 3rem;
+}
+.logotext{
+    color: navy;
+    font-weight: bolder;
+    align-self: center;
+    padding:0rem 0rem 1rem;
+}
+.menu{
+    padding: 1rem 3rem;
+}
+a{
+    text-decoration: none;
+}
+.link1{
+    background-color: navy;
+    color: white;
+    border-radius: 5%;
+    padding: 0.5rem;
+    margin: 0 2rem;
+}
+.link2{
+    background-color: white;
+    border: 1px solid navy;
+    color: black;
+    border-radius: 5%;
+    padding: 0.4rem;
+}
+.body1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1rem;
+}
+.intro{
+    width: 50%;
+    margin: 0 1rem;
+}
+.ipart{
+    font-size: 4rem;
+}
+.photo{
+    display: flex;
+    align-content: center;
+    width: 50%;
+    border: 1rem solid yellow;
+}
+.yourphoto{
+    font-size: 6rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+button{
+    background-color: navy;
+    color: white;
+    padding: 1rem 7rem 1rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+a:hover{
+    background-color: rgb(92, 92, 247);
+  
+}
+button:hover{
+    background-color: rgb(92, 92, 247);
+}
+.imgdivquote{
+    background-color: burlywood;
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.imgdiv{
+  height: 50%;
+  width: 50%;
+}
+.quote{
+    height: 50%;
+    width: 50%; 
+    line-height: 2rem;
+}
+.senator{
+    color: navy;
+    font-size: 1rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0.2rem 0.1rem 0.2rem 0.1rem rgb(167, 165, 165)  ;
+    margin: -1rem 5rem 1rem;
+    background-color: white;
+    padding: 0rem 0.2rem;
+
+
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.saillogo{
+    margin: 3rem 0rem 0rem 0rem;
+    display: flex;
+}
+
+h3{
+    color: green;
+}
